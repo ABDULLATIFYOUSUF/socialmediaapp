@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.heading{
+
+.heading {
     font-family: Arial, Helvetica, sans-serif;
     color: #d79732;
     margin-bottom: 20px;
     text-decoration: underline;
 }
-.loginForm{
+
+.loginForm {
     border: 1px solid black;
     border-radius: 8px;
     padding: 20px;
@@ -17,6 +19,56 @@
     background-color: #7f7f7f;
     color: white;
 }
-.form-text{
+
+.form-text {
     color: white;
+}
+
+.navbar {
+    background-color: #7f7f7f;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.post {
+    width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #7f7f7f;
+    color: white;
+}
+
+.post input {
+    width: 350px;
+    height: 60px;
+    margin: 10px;
+}
+
+.post textarea {
+    width: 350px;
+    height: 100px;
+    margin: 10px;
+}
+
+#addPost {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 10px;
+}
+
+.card {
+    background-color: #7f7f7f;
+    color: white;
+    margin: 10px;
 }
